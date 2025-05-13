@@ -9,7 +9,6 @@ from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_core.prompts import PromptTemplate
 from sqlalchemy import create_engine
 import sqlite3
-from langchain_groq import ChatGroq
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 from dotenv import load_dotenv
