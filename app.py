@@ -62,7 +62,7 @@ def configure_db(db_type, mysql_host=None, mysql_user=None, mysql_password=None,
         return SQLDatabase(create_engine('sqlite://', creator=creator))
 
     elif db_type == MYSQL:
-        engine_url = f"mysql+pymysql://{mysql_user}:{mysql_password}@{mysql_host}/{mysql_db}"
+        engine_url = f"mysql+pymysql://{mysql_user}:{mysql_password}@{mysql_host}:3306/{mysql_db}"
         return SQLDatabase(create_engine(engine_url))
 
 # Configure the selected DB
