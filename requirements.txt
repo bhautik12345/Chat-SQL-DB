@@ -8,6 +8,4 @@ streamlit
 langchain-google-genai
 sqlalchemy
 pathlib
-mysql-connector
-mysql
 pymysql
